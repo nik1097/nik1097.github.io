@@ -15,21 +15,29 @@ html{
 
 .navbar, .navbar-default{
     border-bottom: 0 !important;
-    font-family: Lato;
+    font-family: Lato !important;
     background-color: #fff !important;
     padding-top:10px;
 }
 
-.navbar-brand{
-    font-family: 'Anurati';
-    color: #000000cc !important;
-    font-size: 2em !important;
+.navbar-brand>img{
+    margin:-10px auto 5px;
+    width: 45px;
+    height: 45px;
 }
 .navbar-right li a{
     color:#000000cc !important;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: normal;
 } 
+
+blockquote{
+    font-family: 'EB Garmond';
+    font-style:italic;
+    font-weight: 700;
+    font-size: 21px !important;
+    border-left:5px solid #181818 !important; 
+}
 
 .navbar-default .navbar-toggle {
     border:0 !important;
@@ -103,7 +111,7 @@ html{
     border:2px solid #000;
     padding: 5px 10px;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2);
 }
 
 .cloud{
@@ -142,6 +150,41 @@ html{
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
 }
+
+.footer{
+    color:#fff;
+    font-family: lato;
+    background-color: #181818;
+    text-align: center;
+    padding: 15px;
+}
+
+/* inner blog contents */
+.read-blog-title{
+    text-align: center;
+    margin:5px auto 15px;
+    font-family: 'EB Garamond';
+    font-weight: 700;
+}
+
+.read-blog-content{
+    margin:5px auto;
+    font-size: 16px;
+    font-family: lato;
+}
+
+.date>em{
+    margin:15px auto  !important;
+    font-family: 'EB Garamond';
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.shadow{
+    height: 100% !important;
+    padding:15px !important;
+}
+
 
 
 /* media queries */
