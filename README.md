@@ -1,6 +1,5 @@
-# portfolio-nik
-Portfolio for my friend Nikhil Suresh  
+# Portfolio of Nikhil Suresh  
 
-You can test it [here](https://adithyabhat.com/portfolio-nik)  
+Checkout Nikhil's portfolio [here](https://nik1097.github.io)  
 
 Feel free to provide your feedback !
