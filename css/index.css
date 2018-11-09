@@ -1,7 +1,22 @@
 @font-face{
-    font-family: 'Anurati';
-    src:url('../assets/Anurati-Regular.otf');
+    font-family: 'CircularStd';
+    font-weight: bold;
+    src:url('https://rawcdn.githack.com/elartix/circular-std/5966279f6bab200149747223e8bfa5a51c74ec3d/fonts/CircularStd-Bold.ttf');
 }
+
+@font-face{
+    font-family: 'CircularStd';
+    font-weight: normal;
+    src: url('https://rawcdn.githack.com/elartix/circular-std/5966279f6bab200149747223e8bfa5a51c74ec3d/fonts/CircularStd-Medium.ttf')
+}
+
+@font-face{
+    font-family: 'sanfransisco';
+    font-weight: lighter;
+    src: url('https://rawcdn.githack.com/AppleDesignResources/SanFranciscoFont/59cf0dc3660e99e66813665354f787895fb41fe1/SanFranciscoDisplay-Light.otf')
+}
+
+
 
 *{
     margin:0;
@@ -13,9 +28,14 @@ html{
     height:100%;
 }
 
+body{
+    font-family: sanfransisco;
+    font-weight: normal;
+}
+
 .navbar, .navbar-default{
     border-bottom: 0 !important;
-    font-family: Lato !important;
+    font-family: sanfransisco !important;
     background-color: #fff !important;
     padding-top:10px;
 }
@@ -29,11 +49,11 @@ html{
     color:#000000cc !important;
     font-size: 16px;
     font-weight: normal;
-    font-family: 'EB Garamond';
+    font-family: 'CircularStd';
 } 
 
 blockquote{
-    font-family: 'EB Garmond';
+    font-family: 'CircularStd';
     font-style:italic;
     font-weight: 700;
     font-size: 21px !important;
@@ -52,7 +72,7 @@ blockquote{
 
 /* landing page - About */
 .hero{
-    font-family: lato;
+    font-family: CircularStd;
     columns: #000000cc;
 }
 
@@ -81,6 +101,8 @@ blockquote{
 
 .about-p{
     font-size: 16px;
+    font-weight: normal !important;
+    opacity: 0.9;
 }
 
 .touch{
@@ -104,7 +126,7 @@ blockquote{
     padding: 15px 0 ;
     box-shadow: 0px 2px 6px 0 rgba(0,0,0,0.2),2px 3px 8px 0 rgba(0,0,0,0.3);
     color: #000000cc;
-    font-family: lato;
+    font-family: CircularStd;
     display: block;
     margin:0 auto;
     width: 95%
@@ -140,7 +162,7 @@ blockquote{
     border:0 !important;
     box-shadow: 0px 2px 6px 0 rgba(0,0,0,0.2),2px 3px 8px 0 rgba(0,0,0,0.3);
     height:160px;
-    font-family: lato;
+    font-family: CircularStd;
 }
 
 .blog-h4{
@@ -150,6 +172,7 @@ blockquote{
 
 .blog-p{
     margin-bottom: 15px;
+    opacity: 0.9;
 }
 
 .secondary-blogs{
@@ -164,7 +187,7 @@ blockquote{
 
 .footer{
     color:#ffffffcc;
-    font-family: lato;
+    font-family: CircularStd;
     background-color: #181818;
     text-align: center;
     padding: 15px;
@@ -174,7 +197,8 @@ blockquote{
 .read-blog-title{
     text-align: center;
     margin:5px auto 15px;
-    font-family: 'EB Garamond';
+    font-family: 'CircularStd';
+    font-weight: bold;
     font-weight: 700;
 }
 
@@ -182,13 +206,13 @@ blockquote{
     list-style: none;
     margin:10px auto;
     font-size: 18px;
-    font-family: 'lato';
+    font-family: 'CircularStd';
     opacity: 0.8;
 }
 
 .date>em{
     margin:5px auto  !important;
-    font-family: 'EB Garamond';
+    font-family: 'CircularStd';
     font-weight: 700;
     font-size: 14px;
 }
