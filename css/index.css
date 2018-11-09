@@ -228,6 +228,15 @@ blockquote{
     font-weight: bold;
 }
 
+.navbar-toggle .icon-bar:nth-child(2){
+    width: 95%;
+}
+
+.navbar-toggle .icon-bar:nth-child(3){
+    width: 80%;
+}
+
+
 
 /* media queries */
 
@@ -240,7 +249,8 @@ blockquote{
     }
     .hello{
         font-size: 3em;
-        margin-top: 20px;        
+        margin-top: 20px;   
+        text-align: center     
     }
     .touch{
         font-size: 2em;
@@ -263,7 +273,8 @@ blockquote{
     }
     .hello{
         font-size: 3em;
-        margin-top: 20px;        
+        margin-top: 20px;  
+        text-align: center        
     }
     .touch{
         font-size: 2em;
@@ -286,7 +297,8 @@ blockquote{
     }
     .hello{
         font-size: 3.5em;
-        margin-top: 20px;        
+        margin-top: 20px;    
+        text-align: center    
     }
     .touch{
         font-size: 2em;
@@ -312,7 +324,8 @@ blockquote{
     }
     .hello{
         font-size: 3em;
-        margin-top: 30px;        
+        margin-top: 30px;  
+        text-align: center       
     }
     .touch{
         font-size: 2em;
@@ -336,7 +349,8 @@ blockquote{
     }
     .hello{
         font-size: 3em;
-        margin-top: 30px;        
+        margin-top: 30px;   
+        text-align: center      
     }
     .touch{
         font-size: 2em;
@@ -364,7 +378,8 @@ blockquote{
     }
     .hello{
         font-size: 2.5em;
-        margin-top: 35px;        
+        margin-top: 35px;  
+        text-align: center       
     }
     .touch{
         font-size: 1.5em;
